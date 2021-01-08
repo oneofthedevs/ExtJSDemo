@@ -21,9 +21,9 @@ Ext.define("ExtJS.view.UserGrid", {
     Ext.apply(this, {
       store: "ExtJS.store.UserStore",
       plugins: [
-        // Ext.create("Ext.grid.plugin.RowEditing", {
-        //   clicksToEdit: 2,
-        // }),
+        Ext.create("Ext.grid.plugin.RowEditing", {
+          clicksToEdit: 2,
+        }),
       ],
       columns: [
         {

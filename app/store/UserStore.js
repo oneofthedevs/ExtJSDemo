@@ -1,4 +1,4 @@
-Ext.define("ExtJS.store.User", {
+Ext.define("ExtJS.store.UserStore", {
   extend: "Ext.data.Store",
   model: "ExtJS.model.User",
   autoLoad: false,
